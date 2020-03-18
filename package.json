@@ -1,0 +1,29 @@
+{
+  "name": "@baleada/animateable-timings",
+  "version": "0.0.0",
+  "description": "Easing curve control points, pre-formatted so they can be passed to Animateable's timing option",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/baleada/animateable-timings.git"
+  },
+  "keywords": [
+    "baleada",
+    "logic",
+    "animateable",
+    "easing",
+    "timing function"
+  ],
+  "author": {
+    "name": "Alex Vipond",
+    "email": "hello@alexvipond.dev",
+    "url": "https://alexvipond.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/baleada/animateable-timings/issues"
+  },
+  "homepage": "https://baleada.netlify.com",
+  "sideEffects": false
+}
