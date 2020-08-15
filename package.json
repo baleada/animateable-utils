@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/baleada/animateable-utils.git"
+    "url": "git+https://github.com/baleada/animateable-utils.git"
   },
   "keywords": [
     "baleada",
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/baleada/animateable-utils/issues"
+    "url": "https://github.com/baleada/animateable-utils/issues"
   },
   "homepage": "https://baleada.netlify.com",
   "sideEffects": false
