@@ -1,8 +1,9 @@
 {
   "name": "@baleada/animateable-utils",
-  "version": "0.1.0",
-  "description": "Easing curve control points, pre-formatted so they can be passed to Animateable's timing option",
-  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Easing curve control points and utility functions that help configure Animateable",
+  "main": "lib/index.js",
+  "module": "lib/index.esm.js",
   "scripts": {},
   "repository": {
     "type": "git",

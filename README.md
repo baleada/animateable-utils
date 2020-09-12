@@ -1,5 +1,5 @@
-# `@baleada/animateable-timings`
+# `@baleada/animateable-utils`
 
-Easing curve control points, pre-formatted so they can be passed to `Animateable`'s `timing` option.
+Easing curve control points and utility functions that help configure `Animateable`.
 
-[See the Baleada docs](https://baleada/netlify.com) for more guidance.
+[See the Baleada docs](https://baleada.netlify.com) for more guidance.
