@@ -25,7 +25,7 @@ export const materialAccelerated = [
   1   , 1   ,
 ]
 
-// Lea Verou of https://cubic-bezier.com/ fame
+// Lea Verou
 export const verouEase = [
   0.25, 0.1 ,
   0.25, 1   ,

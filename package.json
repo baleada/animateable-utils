@@ -2,9 +2,18 @@
   "name": "@baleada/animateable-utils",
   "version": "0.0.0",
   "description": "Easing curve control points and utility functions that help configure Animateable",
-  "main": "lib/index.js",
-  "module": "lib/index.esm.js",
-  "scripts": {},
+  "type": "module",
+  "main": "lib/index.cjs",
+  "module": "lib/index.js",
+  "exports": {
+    "require": "./lib/index.cjs",
+    "import": "./lib/index.js"
+  },
+  "scripts": {
+    "prepare": "rollup --config rollup.config.js",
+    "test:only": "run() { npx uvu tests/$2 $1.test.js$; }; run",
+    "test": "npm run test:only ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/baleada/animateable-utils.git"
@@ -27,5 +36,10 @@
     "url": "https://github.com/baleada/animateable-utils/issues"
   },
   "homepage": "https://baleada.netlify.com",
-  "sideEffects": false
+  "sideEffects": false,
+  "devDependencies": {
+    "@baleada/prepare": "^0.4.15",
+    "rollup": "^2.35.1",
+    "uvu": "^0.5.1"
+  }
 }
