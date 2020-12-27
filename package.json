@@ -3,10 +3,8 @@
   "version": "0.0.1",
   "description": "Easing curve control points and utility functions that help configure Animateable",
   "type": "module",
-  "main": "lib/index.cjs",
   "module": "lib/index.js",
   "exports": {
-    "require": "./lib/index.cjs",
     "import": "./lib/index.js"
   },
   "scripts": {
