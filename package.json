@@ -1,6 +1,6 @@
 {
   "name": "@baleada/animateable-utils",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Easing curve control points and utility functions that help configure Animateable",
   "types": "lib/index.d.ts",
   "module": "lib/index.js",
